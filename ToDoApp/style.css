@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f9c74f, #4361ee);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #4361ee;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTaskButton {
+    background: #4361ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background: #3659d4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.edit {
+    background: #4361ee;
+    margin-right: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
